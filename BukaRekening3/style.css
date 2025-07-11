@@ -1,0 +1,369 @@
+.pengajuan-pembukaan-rekening-desktop,
+.pengajuan-pembukaan-rekening-desktop * {
+  box-sizing: border-box;
+}
+.pengajuan-pembukaan-rekening-desktop {
+  background: #001f3f;
+  height: 1024px;
+  position: relative;
+}
+.ellipse-18 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 101px;
+  height: 101px;
+  position: absolute;
+  left: 56px;
+  top: 923px;
+  aspect-ratio: 1;
+}
+.ellipse-19 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 155px;
+  height: 155px;
+  position: absolute;
+  left: 1199px;
+  top: 736px;
+  aspect-ratio: 1;
+}
+.ellipse-20 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 161px;
+  height: 161px;
+  position: absolute;
+  left: 517px;
+  top: 676px;
+  aspect-ratio: 1;
+}
+.ellipse-22 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 229px;
+  height: 230px;
+  position: absolute;
+  left: 0px;
+  top: 269px;
+  aspect-ratio: 229/230;
+}
+.ellipse-23 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 308px;
+  height: 309px;
+  position: absolute;
+  left: 771px;
+  top: 208px;
+  aspect-ratio: 308/309;
+}
+.ellipse-24 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 163px;
+  height: 163px;
+  position: absolute;
+  left: 1277px;
+  top: 0px;
+  aspect-ratio: 1;
+}
+.ellipse-1 {
+  background: #ffd700;
+  border-radius: 50%;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  aspect-ratio: 1;
+}
+.weui-back-filled {
+  width: 15px;
+  height: 30px;
+  position: absolute;
+  left: 16px;
+  top: 10px;
+  overflow: visible;
+  aspect-ratio: 15/30;
+}
+.verifikasi-email-anda {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  position: absolute;
+  left: 600px;
+  top: 234px;
+}
+.kode-otp-telah-dikirim-ke-email {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: 604px;
+  top: 404px;
+}
+.keamanan-data-anda-terjamin {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: 604px;
+  top: 474px;
+}
+.verifikasi-cepat-mudah {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: 604px;
+  top: 501px;
+}
+.satu-langkah-lagi-menuju-rekening-syariah-anda {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: 604px;
+  top: 530px;
+}
+.kirim-ulang-kode-dalam-56-detik {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: 604px;
+  top: 650px;
+}
+.tidak-menerima-kode {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: 920px;
+  top: 650px;
+}
+.kirim-ulang {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: underline;
+  position: absolute;
+  left: 999px;
+  top: 670px;
+}
+
+
+.randomemail-517-gmail-com {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 604px;
+  top: 434px;
+}
+.image-nero-ai-image-upscaler-photo-face-1-removebg-preview-nero-ai-image-upscaler-photo-face-1 {
+  width: 472px;
+  height: 590px;
+  position: absolute;
+  left: 131px;
+  top: 186px;
+  object-fit: cover;
+  aspect-ratio: 472/590;
+}
+.rectangle-58 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  color: #ffffff;
+  font-size: 30px;
+  padding-left: 10px;
+  width: 450px;
+  height: 50px;
+  position: absolute;
+  left: 613px;
+  top: 582px;
+}
+.rectangle-60 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 69px;
+  height: 50px;
+  position: absolute;
+  left: 773px;
+  top: 582px;
+}
+.rectangle-62 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 69px;
+  height: 50px;
+  position: absolute;
+  left: 933px;
+  top: 582px;
+}
+.rectangle-59 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 69px;
+  height: 50px;
+  position: absolute;
+  left: 693px;
+  top: 582px;
+}
+.rectangle-61 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 69px;
+  height: 50px;
+  position: absolute;
+  left: 853px;
+  top: 582px;
+}
+.rectangle-63 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 69px;
+  height: 50px;
+  position: absolute;
+  left: 1013px;
+  top: 582px;
+}
+.frame-65 {
+  background: #dc143c;
+  border-radius: 10px;
+  width: 249px;
+  height: 60px;
+  position: absolute;
+  left: 600px;
+  bottom: 288px;
+  overflow: hidden;
+}
+.verifikasi {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  width: 412px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+   
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+
+
+   .kirim-ulang {
+      color: #ffffff;
+      text-align: left;
+      font-family: "Inter-Medium", sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      text-decoration: underline;
+      position: absolute;
+      left: 999px;
+      top: 670px;
+      cursor: pointer;
+      transition: opacity 0.3s;
+    }
+    .kirim-ulang-kode-dalam-56-detik {
+      color: #ffffff;
+      text-align: left;
+      font-family: "Inter-Medium", sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      position: absolute;
+      left: 604px;
+      top: 650px;
+    }
+
+    .otp-input-container {
+      display: flex;
+      gap: 10px;
+      position: absolute;
+      left: 604px;
+      top: 580px;
+    }
+
+    .otp-input {
+      width: 50px;
+      height: 50px;
+      font-size: 24px;
+      text-align: center;
+      border: 1px solid #fff;
+      border-radius: 10px;
+      background: transparent;
+      color: white;
+    }
+
+    .otp-status {
+      color: white;
+      font-size: 14px;
+      position: absolute;
+      left: 604px;
+      top: 640px;
+      font-family: "Inter-Medium", sans-serif;
+    }
+
+    .verifikasi.disabled {
+      opacity: 0.5;
+      pointer-events: none;
+    }

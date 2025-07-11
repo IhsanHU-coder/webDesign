@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Form Pembukaan Rekening</title>
+</head>
+<body>
+  <div class="pengajuan-pembukaan-rekening-desktop">
+    <img class="image-nero-ai-image-upscaler-photo-face-1" src="image-nero-ai-image-upscaler-photo-face-10.png" />
+    <div class="ellipse-40"></div>
+    <div class="ellipse-37"></div>
+    <div class="ellipse-38"></div>
+
+    <div class="frame-64">
+      <div class="tujuan-pembukaan-rekening">Tujuan Pembukaan Rekening</div>
+      <div class="jenis-rekening">Jenis Rekening</div>
+
+      <div class="frame-15" data-option="pribadi" data-group="tujuan">
+        <div class="ellipse-42"></div>
+        <div class="tabungan-pribadi">Tabungan Pribadi</div>
+      </div>
+      <div class="frame-16" data-option="haji" data-group="tujuan">
+        <div class="ellipse-4"></div>
+        <div class="tabungan-haji">Tabungan Haji</div>
+      </div>
+      <div class="frame-17" data-option="pendidikan" data-group="tujuan">
+        <div class="ellipse-4"></div>
+        <div class="tabungan-pendidikan">Tabungan Pendidikan</div>
+      </div>
+      <div class="frame-18" data-option="usaha" data-group="tujuan">
+        <div class="ellipse-4"></div>
+        <div class="tabungan-usaha">Tabungan Usaha</div>
+      </div>
+      <div class="frame-19" data-option="lainnya" data-group="tujuan">
+        <div class="ellipse-5"></div>
+        <div class="lainya">Lainnya</div>
+        <input type="text" class="lainnya-input" placeholder="Isi tujuan lain...">
+      </div>
+
+      <div class="group-161">
+        <div class="frame-20" data-option="tabungan" data-group="jenis">
+          <div class="ellipse-43"></div>
+          <div class="rekening-tabungan">Rekening Tabungan</div>
+        </div>
+        <div class="frame-20" data-option="giro" data-group="jenis">
+          <div class="ellipse-43"></div>
+          <div class="rekening-giro">Rekening Giro</div>
+        </div>
+        <div class="frame-20" data-option="deposito" data-group="jenis">
+          <div class="ellipse-43"></div>
+          <div class="rekening-deposito">Rekening Deposito</div>
+        </div>
+      </div>
+    </div>
+    <div id="deskripsi-tabungan" class="deskripsi-rekening">
+      Rekening tabungan adalah jenis rekening bank yang digunakan untuk menyimpan uang secara aman dan bisa diakses kapan saja. Nasabah bisa menyetor (menabung) dan menarik uang melalui ATM, teller, atau layanan digital.
+    </div>
+    <div id="deskripsi-giro" class="deskripsi-rekening">
+      Rekening giro adalah jenis rekening bank yang digunakan untuk menyimpan dan melakukan transaksi keuangan, baik oleh individu maupun badan usaha.
+    </div>
+    <div id="deskripsi-deposito" class="deskripsi-rekening">
+      Rekening deposito adalah produk simpanan di bank yang menawarkan suku bunga lebih tinggi daripada tabungan biasa, namun dengan penarikan yang hanya bisa dilakukan setelah jangka waktu tertentu.
+    </div>
+  </div>
+
+    <div class="frame-31">
+      <a href="../BukaRekening/index.html" class="ellipse-1">
+      <img class="weui-back-filled" src="weui-back-filled0.svg" />
+      </a>
+    </div>
+    <div class="frame-152">
+      <a href="../BukaRekening3/index.html" class="lanjut-ketahap-berikutnya">Lanjut Ketahap Berikutnya →</a>
+    </div>
+    <div class="data-anda-aman-dan-terenkripsi">Data Anda aman dan terenkripsi</div>
+    <div class="data-pribadi">Data Pribadi</div>
+    <div class="tujuan-buka-rekening">Tujuan Buka Rekening</div>
+    <div class="upload-dokumen">Upload Dokumen</div>
+    <div class="div">-------</div>
+    <div class="div2">-------</div>
+    <div class="ellipse-65"></div>
+    <div class="ellipse-66"></div>
+    <div class="ellipse-67"></div>
+    <div class="ellipse-64"></div>
+    <div class="ellipse-63"></div>
+    <div class="ellipse-39"></div>
+    
+  </div>
+
+  <script>
+     const options = document.querySelectorAll('[data-option]');
+    const inputLainnya = document.querySelector('.lainnya-input');
+    const labelLainnya = document.querySelector('.lainya');
+    const deskripsis = {
+      tabungan: document.getElementById('deskripsi-tabungan'),
+      giro: document.getElementById('deskripsi-giro'),
+      deposito: document.getElementById('deskripsi-deposito')
+    };
+
+    options.forEach(option => {
+      option.addEventListener('click', () => {
+        const group = option.dataset.group;
+
+        options.forEach(o => {
+          if (o.dataset.group === group) {
+            o.classList.remove('active', 'show-input');
+            if (o.dataset.option === 'lainnya') {
+              o.querySelector('.lainya')?.classList.remove('hidden');
+            }
+          }
+        });
+
+        option.classList.add('active');
+
+        if (option.dataset.option === 'lainnya') {
+          option.classList.add('show-input');
+          labelLainnya.classList.add('hidden');
+        }
+
+        Object.values(deskripsis).forEach(el => el.classList.remove('show'));
+
+        const selected = option.dataset.option;
+        if (deskripsis[selected]) {
+          deskripsis[selected].classList.add('show');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

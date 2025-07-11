@@ -1,0 +1,735 @@
+.pengajuan-pembukaan-rekening-desktop,
+.pengajuan-pembukaan-rekening-desktop * {
+  box-sizing: border-box;
+}
+.pengajuan-pembukaan-rekening-desktop {
+  background: #001f3f;
+  height: 1024px;
+  position: relative;
+}
+.ellipse-18 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 101px;
+  height: 101px;
+  position: absolute;
+  left: 140px;
+  top: 831px;
+  aspect-ratio: 1;
+}
+.ellipse-19 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 154px;
+  height: 154px;
+  position: absolute;
+  left: 70px;
+  top: 156px;
+  aspect-ratio: 1;
+}
+.ellipse-20 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 160px;
+  height: 161px;
+  position: absolute;
+  left: 1120px;
+  top: 657px;
+  aspect-ratio: 160/161;
+}
+.ellipse-22 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 229px;
+  height: 229px;
+  position: absolute;
+  left: 362px;
+  top: 385px;
+  aspect-ratio: 1;
+}
+.ellipse-23 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 308px;
+  height: 309px;
+  position: absolute;
+  left: 591px;
+  top: 91px;
+  aspect-ratio: 308/309;
+}
+.image-nero-ai-image-upscaler-photo-face-1-removebg-preview-nero-ai-image-upscaler-photo-face-2 {
+  width: 424px;
+  height: 530px;
+  position: absolute;
+  left: 441px;
+  top: 402px;
+  object-fit: cover;
+  aspect-ratio: 424/530;
+}
+.rectangle-64 {
+  background: #001f3f;
+  width: 125px;
+  height: 133px;
+  position: absolute;
+  left: 723px;
+  top: 471px;
+}
+
+.weui-back-filled {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 6px;
+  top: 10px;
+  overflow: visible;
+}
+.group-146 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffd700;
+  border-width: 5px;
+  width: 350px;
+  height: 200px;
+  position: absolute;
+  left: 91px;
+  top: 247px;
+}
+.rectangle-2 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffd700;
+  border-width: 5px;
+  width: 350px;
+  height: 200px;
+  position: absolute;
+  left: 91px;
+  top: 491px;
+}
+.group-144 {
+  width: 126px;
+  height: 73px;
+  position: static;
+}
+.unggah-foto-ktp {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: 200px;
+  top: 370px;
+}
+.material-symbols-upload-rounded {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: calc(50% - 479px);
+  top: 310px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.group-145 {
+  width: 84px;
+  height: 89px;
+  position: static;
+}
+.scan-wajah {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: 225px;
+  top: 625px;
+}
+.lucide-scan-face {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 241px;
+  top: 554px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-66 {
+  background: #dc143c;
+  border-radius: 10px;
+  width: 357px;
+  height: 60px;
+  position: absolute;
+  left: calc(50% - -125px);
+  bottom: 307px;
+  overflow: hidden;
+}
+.verifikasi {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  width: 412px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.unggah-foto-ktp-scan-wajah {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - -25px);
+  top: 230px;
+}
+.untuk-memverifikasi-identitas-anda-unggah-foto-ktp-yang-jelas-dan-lakukan-pemindaian-wajah {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  position: absolute;
+  left: 751px;
+  top: 400px;
+}
+.ktp-asli-bukan-fotokopi {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 795px;
+  top: 500px;
+}
+.pencahayaan-cukup-dan-tidak-blur {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 795px;
+  top: 537px;
+}
+.wajah-terlihat-jelas-tanpa-masker-kacamata {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 795px;
+  top: 576px;
+}
+.data-anda-di-enkripsi-dan-tidak-dibagikan-ke-pihak-ketiga {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 875px;
+  top: 755px;
+}
+.el-ok {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 757px;
+  top: 505px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.el-ok2 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 757px;
+  top: 539px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.el-ok3 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 757px;
+  top: 578px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.si-lock-fill {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 845px;
+  top: 752px;
+  overflow: visible;
+}
+
+.pengajuan-pembukaan-rekening-desktop,
+.pengajuan-pembukaan-rekening-desktop * {
+  box-sizing: border-box;
+}
+.pengajuan-pembukaan-rekening-desktop {
+  background: #001f3f;
+  height: 1024px;
+  position: relative;
+}
+.ellipse-18 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 101px;
+  height: 101px;
+  position: absolute;
+  left: 140px;
+  top: 831px;
+  aspect-ratio: 1;
+}
+.ellipse-19 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 154px;
+  height: 154px;
+  position: absolute;
+  left: 70px;
+  top: 156px;
+  aspect-ratio: 1;
+}
+.ellipse-20 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 160px;
+  height: 161px;
+  position: absolute;
+  left: 1120px;
+  top: 657px;
+  aspect-ratio: 160/161;
+}
+.ellipse-22 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 229px;
+  height: 229px;
+  position: absolute;
+  left: 362px;
+  top: 385px;
+  aspect-ratio: 1;
+}
+.ellipse-23 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 308px;
+  height: 309px;
+  position: absolute;
+  left: 591px;
+  top: 91px;
+  aspect-ratio: 308/309;
+}
+.image-nero-ai-image-upscaler-photo-face-1-removebg-preview-nero-ai-image-upscaler-photo-face-2 {
+  width: 424px;
+  height: 530px;
+  position: absolute;
+  left: 441px;
+  top: 402px;
+  object-fit: cover;
+  aspect-ratio: 424/530;
+}
+.rectangle-64 {
+  background: #001f3f;
+  width: 125px;
+  height: 133px;
+  position: absolute;
+  left: 723px;
+  top: 471px;
+}
+
+.group-146 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffd700;
+  border-width: 5px;
+  width: 350px;
+  height: 200px;
+  position: absolute;
+  left: 91px;
+  top: 247px;
+}
+.rectangle-2 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffd700;
+  border-width: 5px;
+  width: 350px;
+  height: 200px;
+  position: absolute;
+  left: 91px;
+  top: 491px;
+}
+.group-144 {
+  width: 126px;
+  height: 73px;
+  position: static;
+}
+.unggah-foto-ktp {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 517px);
+  top: 365px;
+}
+.material-symbols-upload-rounded {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: calc(50% - 479px);
+  top: 310px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.group-145 {
+  width: 84px;
+  height: 89px;
+  position: static;
+}
+.scan-wajah {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 496px);
+  top: 625px;
+}
+.lucide-scan-face {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 241px;
+  top: 554px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-66 {
+  background: #dc143c;
+  border-radius: 10px;
+  width: 357px;
+  height: 60px;
+  position: absolute;
+  left: calc(50% - -125px);
+  bottom: 307px;
+  overflow: hidden;
+}
+.verifikasi {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  width: 412px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.unggah-foto-ktp-scan-wajah {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - -25px);
+  top: 230px;
+}
+.untuk-memverifikasi-identitas-anda-unggah-foto-ktp-yang-jelas-dan-lakukan-pemindaian-wajah {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  position: absolute;
+  left: 751px;
+  top: 400px;
+}
+.ktp-asli-bukan-fotokopi {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 795px;
+  top: 500px;
+}
+.pencahayaan-cukup-dan-tidak-blur {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 795px;
+  top: 537px;
+}
+.wajah-terlihat-jelas-tanpa-masker-kacamata {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 795px;
+  top: 576px;
+}
+.data-anda-di-enkripsi-dan-tidak-dibagikan-ke-pihak-ketiga {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 875px;
+  top: 755px;
+}
+.el-ok {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 757px;
+  top: 505px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.el-ok2 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 757px;
+  top: 539px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.el-ok3 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 757px;
+  top: 578px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.si-lock-fill {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 845px;
+  top: 752px;
+  overflow: visible;
+}
+.group-266 {
+  position: absolute;
+  inset: 0;
+}
+
+.group-265{
+  position: absolute;
+  left: 0px;
+}
+.data-pribadi {
+  color: #bababa;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 361px;
+  top: 73px;
+}
+.tujuan-buka-rekening {
+  color: #bababa;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 611px;
+  top: 73px;
+}
+.upload-dokumen {
+  color: #ffbd0a;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 953px;
+  top: 73px;
+}
+.div {
+  color: #bababa;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 491px;
+  top: 73px;
+}
+.div2 {
+  color: #bababa;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 833px;
+  top: 73px;
+}
+.ellipse-65 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #ffbd0a;
+  border-width: 3px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 319px;
+  top: 71px;
+  aspect-ratio: 1;
+}
+.ellipse-66 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #ffbd0a;
+  border-width: 3px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 572px;
+  top: 71px;
+  aspect-ratio: 1;
+}
+.ellipse-67 {
+  background: #ffbd0a;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #ffbd0a;
+  border-width: 3px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 914px;
+  top: 71px;
+  aspect-ratio: 1;
+}
+
+.ellipse-24 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: 1194px;
+  top: 864px;
+  aspect-ratio: 1;
+}
+.ellipse-25 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 104px;
+  height: 105px;
+  position: absolute;
+  left: 415px;
+  top: 858px;
+  aspect-ratio: 104/105;
+}
+.ellipse-26 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 100px;
+  height: 101px;
+  position: absolute;
+  left: 118px;
+  top: 420px;
+  aspect-ratio: 100/101;
+}
+.ellipse-27 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 238px;
+  height: 237px;
+  position: absolute;
+  left: 1202px;
+  top: 121px;
+  aspect-ratio: 238/237;
+}
+.ellipse-28 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 167px;
+  height: 167px;
+  position: absolute;
+  left: 1099px;
+  top: 632px;
+  aspect-ratio: 1;
+}
+.ellipse-29 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  aspect-ratio: 1;
+}
+
+.ellipse-1 {
+  background: #ffd700;
+  border-radius: 50%;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weui-back-filled {
+  width: 24px; /* ukuran panah */
+  height: 24px;
+  position: absolute;
+  left: 12px;
+  top: 14px;
+}

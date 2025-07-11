@@ -1,0 +1,316 @@
+.pengajuan-pembukaan-rekening-desktop,
+.pengajuan-pembukaan-rekening-desktop * {
+  box-sizing: border-box;
+}
+.pengajuan-pembukaan-rekening-desktop {
+  background: #001f3f;
+  height: 1024px;
+  position: relative;
+}
+.ellipse-24 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: 1194px;
+  top: 864px;
+  aspect-ratio: 1;
+}
+.ellipse-25 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 104px;
+  height: 105px;
+  position: absolute;
+  left: 415px;
+  top: 858px;
+  aspect-ratio: 104/105;
+}
+.ellipse-26 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 100px;
+  height: 101px;
+  position: absolute;
+  left: 118px;
+  top: 420px;
+  aspect-ratio: 100/101;
+}
+.ellipse-27 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 238px;
+  height: 237px;
+  position: absolute;
+  left: 1202px;
+  top: 121px;
+  aspect-ratio: 238/237;
+}
+.ellipse-28 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 167px;
+  height: 167px;
+  position: absolute;
+  left: 1099px;
+  top: 632px;
+  aspect-ratio: 1;
+}
+.ellipse-29 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  aspect-ratio: 1;
+}
+.image-10 {
+  border-radius: 10px;
+  width: 1215px;
+  height: 810px;
+  position: absolute;
+  left: 112px;
+  top: 77px;
+  object-fit: cover;
+  aspect-ratio: 3/2;
+}
+.ellipse-1 {
+  background: #ffd700;
+  border-radius: 50%;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  aspect-ratio: 1;
+}
+.weui-back-filled {
+  width: 15px;
+  height: 30px;
+  position: absolute;
+  left: 17px;
+  top: 10px;
+  overflow: visible;
+  aspect-ratio: 15/30;
+}
+.image-9 {
+  width: 862px;
+  height: 862px;
+  position: absolute;
+  left: 170px;
+  top: -100px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.frame-67 {
+  background: #dc143c;
+  border-radius: 10px;
+  width: 250px;
+  height: 30px;
+  position: absolute;
+  left: 750px;
+  top: 570px;
+  overflow: hidden;
+}
+.unggah-foto-ktp {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  width: 412px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+   
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #001f3f;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+video, canvas {
+  position: absolute;
+  width: 800px;
+  height: 460px;
+  top: 100px;
+  left: 200px;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.buttons {
+  position: absolute;
+  z-index: 3;
+  bottom: 40px;
+  left: 200px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#captureBtn {
+  background: crimson;
+  color: white;
+}
+
+#uploadBtn {
+  background: gold;
+  color: black;
+}
+
+#uploadInput {
+  display: none;
+}
+
+#resultImage {
+  position: absolute;
+  left: 1050px;
+  top: 300px;
+  width: 320px;
+  height: auto;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 3;
+}
+
+/* ✅ BACK BUTTON */
+.frame-back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+}
+
+#back {
+  background-color: #ffd700;
+  border-radius: 50%;
+  width: 51px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+}
+
+.weui-back-filled {
+  width: 15px;
+  height: 30px;
+}
+
+.ellipse-24 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: 1194px;
+  top: 864px;
+  aspect-ratio: 1;
+}
+.ellipse-25 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 104px;
+  height: 105px;
+  position: absolute;
+  left: 415px;
+  top: 858px;
+  aspect-ratio: 104/105;
+}
+.ellipse-26 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 100px;
+  height: 101px;
+  position: absolute;
+  left: 118px;
+  top: 420px;
+  aspect-ratio: 100/101;
+}
+.ellipse-27 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 238px;
+  height: 237px;
+  position: absolute;
+  left: 1202px;
+  top: 121px;
+  aspect-ratio: 238/237;
+}
+.ellipse-28 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 167px;
+  height: 167px;
+  position: absolute;
+  left: 1099px;
+  top: 632px;
+  aspect-ratio: 1;
+}
+.ellipse-29 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  aspect-ratio: 1;
+}

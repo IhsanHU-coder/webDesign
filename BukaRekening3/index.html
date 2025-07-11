@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Document</title>
+</head>
+<body>
+  <div class="pengajuan-pembukaan-rekening-desktop">
+    <!-- Background decorations -->
+    <div class="ellipse-18"></div>
+    <div class="ellipse-19"></div>
+    <div class="ellipse-20"></div>
+    <div class="ellipse-22"></div>
+    <div class="ellipse-23"></div>
+    <div class="ellipse-24"></div>
+
+    <!-- Back button -->
+    <div class="group-265">
+      <a href="../BukaRekening2/index.html" class="ellipse-1">
+        <img class="weui-back-filled" src="weui-back-filled0.svg" />
+      </a>
+    </div>
+
+    <!-- Title & Info -->
+    <div class="verifikasi-email-anda">Verifikasi<br />Email Anda</div>
+    <div class="kode-otp-telah-dikirim-ke-email">Kode OTP telah dikirim ke Email :</div>
+    <div class="keamanan-data-anda-terjamin">
+      <ul><li>- Keamanan data Anda terjamin</li></ul>
+    </div>
+    <div class="verifikasi-cepat-mudah">
+      <ul><li>- Verifikasi cepat &amp; mudah</li></ul>
+    </div>
+    <div class="satu-langkah-lagi-menuju-rekening-syariah-anda">
+      <ul><li>- Satu langkah lagi menuju rekening syariah Anda</li></ul>
+    </div>
+
+    <!-- OTP Countdown and Resend -->
+    <div id="otp-timer" class="kirim-ulang-kode-dalam-56-detik">
+      Kirim ulang kode dalam: <span id="timer-value">0</span> detik
+    </div>
+    <div class="tidak-menerima-kode">Tidak menerima kode?</div>
+    <div id="kirim-ulang" class="kirim-ulang">Kirim Ulang</div>
+
+    <!-- Email & Image -->
+    <div class="randomemail-517-gmail-com">randomemail517@gmail.com</div>
+    <img
+      class="image-nero-ai-image-upscaler-photo-face-1-removebg-preview-nero-ai-image-upscaler-photo-face-1"
+      src="image-nero-ai-image-upscaler-photo-face-1-removebg-preview-nero-ai-image-upscaler-photo-face-10.png"
+    />
+
+    <!-- OTP Input Rectangles -->
+    <input type="number" class="rectangle-58" size="100px"></input>
+    <!-- <div class="rectangle-59"></div>
+    <div class="rectangle-60"></div>
+    <div class="rectangle-61"></div>
+    <div class="rectangle-62"></div>
+    <div class="rectangle-63"></div> -->
+
+    <!-- Verifikasi Button -->
+    <a href="../BukaRekening4/index.html" class="frame-65">
+      <div class="verifikasi">Verifikasi</div>
+    </a>
+  </div>
+
+  <!-- SCRIPT -->
+  <script>
+    const timerValue = document.getElementById('timer-value');
+    const kirimUlangBtn = document.getElementById('kirim-ulang');
+    const otpTimer = document.getElementById('otp-timer');
+
+    let cooldown = 0;
+    let interval = null;
+
+    function startCooldown() {
+      cooldown = 60;
+      timerValue.textContent = cooldown;
+      kirimUlangBtn.style.pointerEvents = 'none';
+      kirimUlangBtn.style.opacity = '0.5';
+
+      interval = setInterval(() => {
+        cooldown--;
+        timerValue.textContent = cooldown;
+
+        if (cooldown <= 0) {
+          clearInterval(interval);
+          kirimUlangBtn.style.pointerEvents = 'auto';
+          kirimUlangBtn.style.opacity = '1';
+        }
+      }, 1000);
+    }
+
+    kirimUlangBtn.addEventListener('click', () => {
+      if (cooldown <= 0) {
+        // 👇 Tambahkan logic pengiriman OTP di sini jika perlu
+        startCooldown();
+      }
+    });
+
+    // Tidak auto-start saat halaman dimuat
+  </script>
+
+  
+</body>
+</html>

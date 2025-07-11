@@ -1,0 +1,99 @@
+.pengajuan-pembukaan-rekening-desktop,
+.pengajuan-pembukaan-rekening-desktop * {
+  box-sizing: border-box;
+}
+.pengajuan-pembukaan-rekening-desktop {
+  background: #001f3f;
+  height: 1024px;
+  position: relative;
+}
+body{
+  overflow: hidden;
+}
+
+.data-sedang-di-periksa-kamu-akan-mendapatkan-notifkasi-pada-email-anda-apabila-rekening-berhasil-ataupun-gagal-dibuat {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 500;
+  position: absolute;
+  left: 550px;
+  top: 200px;
+  width: 361px;
+  height: 109px;
+}
+.klik-dimana-saja {
+  color: rgba(255, 255, 255, 0.324);
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+  position: absolute;
+  left: 583px;
+  top: 406px;
+  width: 274px;
+}
+.ellipse-24 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: 1194px;
+  top: 869px;
+  aspect-ratio: 1;
+}
+.ellipse-25 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 104px;
+  height: 105px;
+  position: absolute;
+  left: 415px;
+  top: 863px;
+  aspect-ratio: 104/105;
+}
+.ellipse-26 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 100px;
+  height: 101px;
+  position: absolute;
+  left: 118px;
+  top: 425px;
+  aspect-ratio: 100/101;
+}
+.ellipse-27 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 238px;
+  height: 237px;
+  position: absolute;
+  left: 1202px;
+  top: 126px;
+  aspect-ratio: 238/237;
+}
+.ellipse-28 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 167px;
+  height: 167px;
+  position: absolute;
+  left: 1099px;
+  top: 637px;
+  aspect-ratio: 1;
+}
+.ellipse-29 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  aspect-ratio: 1;
+}
