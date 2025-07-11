@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./style.css">
+  
+  
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+   
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+   </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="formulir-pengajuan-pinjaman">
+    <img
+      class="image-nero-ai-image-upscaler-photo-face-1-removebg-preview-nero-ai-image-upscaler-photo-face-2"
+      src="image-nero-ai-image-upscaler-photo-face-1-removebg-preview-nero-ai-image-upscaler-photo-face-20.png"
+    />
+    <div class="rectangle-64"></div>
+    <div class="frame-27">
+      <div class="rectangle-4"></div>
+      <div class="rectangle-3"></div>
+      <div class="sumber-penghasilan">Sumber Penghasilan</div>
+      <div class="ellipse-3"></div>
+      <div class="ellipse-4"></div>
+      <div class="ellipse-6"></div>
+      <div class="pekerjaan">Pekerjaan</div>
+      <div class="bisnis">Bisnis</div>
+      <div class="lain-container">
+        <div class="lain">Lain</div>
+        <input type="text" class="lain-input" placeholder="Tulis sumber..." />
+      </div>
+
+      <div class="group-5">
+        <div class="rectangle-42"></div>
+        <div class="rectangle-32"></div>
+        <div class="nominal-yang-diajukan">Nominal Yang Diajukan</div>
+        <input type="number" class="rp-0" placeholder="0"></input>
+      </div>
+      <div class="group-7">
+        <div class="rectangle-43"></div>
+        <div class="rectangle-33"></div>
+        <div class="jangka-waktu-pinjaman">Jangka Waktu Pinjaman</div>
+      </div>
+      <div class="group-2">
+        <div class="ellipse-32"></div>
+        <div class="ellipse-42"></div>
+        <div class="ellipse-62"></div>
+        <div class="ellipse-8"></div>
+        <div class="ellipse-7"></div>
+        <div class="ellipse-9"></div>
+        <div class="_1-h">1 H</div>
+        <div class="_5-h">5H</div>
+        <div class="_1-w">1W</div>
+        <div class="_1-y">1Y</div>
+        <div class="_1-m">1 M</div>
+        <div class="_10-y">10 Y</div>
+      </div>
+      <img class="rectangle-10" src="rectangle-100.png" />
+      <div class="rectangle-11"></div>
+      <div class="_02-06-2025">02/06/2025</div>
+      <div class="_02-06-20252">02/06/2025</div>
+      <div class="div">-</div>
+      <div class="group-4">
+        <div class="rectangle-44"></div>
+        <div class="rectangle-34"></div>
+        <div class="tujuan-penggunaan-dana">Tujuan Penggunaan Dana</div>
+        <input type="text" class="silahkan-isi" placeholder="Silahkan Isi..."></div>
+      </div>
+    </div>
+    <div class="rectangle-12"></div>
+    <a href="../PengajuanPinjaman2/index.html" >
+    <div class="ellipse-1"></div>
+    <img class="weui-back-filled" src="weui-back-filled0.svg" />
+    </a>
+    <div class="pengajuan-pinjaman-syariah">Pengajuan Pinjaman Syariah</div>
+    <div class="dana-sesuai-kebutuhan-tujuan-anda">
+      Dana sesuai kebutuhan &amp; tujuan Anda
+    </div>
+    <div class="proses-mudah-cepat-transparan">
+      Proses mudah, cepat &amp; transparan
+    </div>
+    <div class="tanpa-riba-berbasis-akad-syariah">
+      Tanpa riba, berbasis akad syariah
+    </div>
+    <img class="vector" src="vector0.svg" />
+    <img class="vector2" src="vector1.svg" />
+    <img class="vector3" src="vector2.svg" />
+    <div class="jenis-pinjaman">Jenis Pinjaman</div>
+    <div class="data-pribadi">Data Pribadi</div>
+    <div class="tujuan-pinjaman">Tujuan Pinjaman</div>
+    <div class="div2">-------</div>
+    <div class="div3">-------</div>
+    <div class="ellipse-71"></div>
+    <div class="ellipse-72"></div>
+    <div class="ellipse-73"></div>
+    <a href="../PengajuanPinjaman5/index.html" class="frame-17">
+      <div class="lanjut-ketahap-berikutnya">Lanjut Ketahap Berikutnya →</div>
+    </a>
+  </div>
+  
+<script>
+  const ellipses = [
+    { id: 'ellipse-pekerjaan', text: 'pekerjaan' },
+    { id: 'ellipse-bisnis', text: 'bisnis' },
+    { id: 'ellipse-lain', text: 'lain' }
+  ];
+
+  const elPekerjaan = document.querySelector('.ellipse-3');
+  const elBisnis = document.querySelector('.ellipse-4');
+  const elLain = document.querySelector('.ellipse-6');
+
+  const teksPekerjaan = document.querySelector('.pekerjaan');
+  const teksBisnis = document.querySelector('.bisnis');
+  const teksLain = document.querySelector('.lain');
+  const inputLain = document.querySelector('.lain-input');
+
+  function resetEllipses() {
+    [elPekerjaan, elBisnis, elLain].forEach(el => el.classList.remove('ellipse-aktif'));
+    inputLain.style.display = 'none';
+    teksLain.style.display = 'block';
+  }
+
+  elPekerjaan.addEventListener('click', () => {
+    resetEllipses();
+    elPekerjaan.classList.add('ellipse-aktif');
+  });
+
+  elBisnis.addEventListener('click', () => {
+    resetEllipses();
+    elBisnis.classList.add('ellipse-aktif');
+  });
+
+  elLain.addEventListener('click', () => {
+    resetEllipses();
+    elLain.classList.add('ellipse-aktif');
+    teksLain.style.display = 'none';
+    inputLain.style.display = 'block';
+  });
+
+  // Jangka Waktu Pinjaman ellipses
+  const waktuEllipses = [
+    document.querySelector('.ellipse-32'),
+    document.querySelector('.ellipse-42'),
+    document.querySelector('.ellipse-62'),
+    document.querySelector('.ellipse-8'),
+    document.querySelector('.ellipse-7'),
+    document.querySelector('.ellipse-9'),
+  ];
+
+  function resetWaktuSelection() {
+    waktuEllipses.forEach(el => el.classList.remove('ellipse-aktif'));
+  }
+
+  waktuEllipses.forEach((el) => {
+    el.addEventListener('click', () => {
+      resetWaktuSelection();
+      el.classList.add('ellipse-aktif');
+    });
+  });
+
+
+</script>
+
+
+</body>
+</html>

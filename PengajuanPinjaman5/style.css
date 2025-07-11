@@ -1,0 +1,84 @@
+.android-compact-17,
+.android-compact-17 * {
+  box-sizing: border-box;
+}
+.android-compact-17 {
+  background: #001f3f;
+  height: 1024px;
+  position: relative;
+}
+body{
+  overflow: hidden;
+}
+
+.data-sedang-di-periksa-kamu-akan-mendapatkan-notifkasi-pada-email-anda-apabila-valid-ataupun-tidak {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 500;
+  position: absolute;
+  left: 506px;
+  top: 208px;
+  width: 427px;
+}
+.klik-dimana-saja {
+  color: rgba(255, 255, 255, 0.314);
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+  position: absolute;
+  left: 583px;
+  top: 366px;
+  width: 274px;
+}
+.ellipse-69 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 305px;
+  height: 305px;
+  position: absolute;
+  left: 949px;
+  top: 98px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  aspect-ratio: 1;
+}
+.ellipse-70 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 226px;
+  height: 226px;
+  position: absolute;
+  left: 185px;
+  top: 170px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  aspect-ratio: 1;
+}
+.ellipse-71 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 164px;
+  height: 164px;
+  position: absolute;
+  left: 922px;
+  top: 684px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  aspect-ratio: 1;
+}
+.ellipse-72 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 118px;
+  height: 118px;
+  position: absolute;
+  left: 292px;
+  top: 807px;
+  aspect-ratio: 1;
+}

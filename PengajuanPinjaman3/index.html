@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ambil atau Unggah Foto KTP</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="ellipse-24"></div>
+  <div class="ellipse-25"></div>
+  <div class="ellipse-26"></div>
+  <div class="ellipse-27"></div>
+  <div class="ellipse-28"></div>
+  <div class="ellipse-29"></div>
+  <div class="container">
+    <!-- Kamera -->
+    <video id="camera" autoplay playsinline></video>
+    <canvas id="canvas" style="display: none;"></canvas>
+
+    <!-- Tombol Back -->
+    <div class="frame-back">
+      <button id="back" onclick="window.history.back()">
+        <img src="weui-back-filled0.svg" class="weui-back-filled" alt="Back" />
+      </button>
+    </div>
+
+    <!-- Tombol Ambil & Unggah -->
+    <div class="buttons">
+      <button id="captureBtn">Ambil Foto</button>
+      <button id="uploadBtn">Unggah File</button>
+      <input type="file" accept="image/*" id="uploadInput">
+    </div>
+
+    <!-- Hasil Foto -->
+    <img id="resultImage" alt="Hasil Foto" />
+  </div>
+
+  <script>
+    const video = document.getElementById('camera');
+    const canvas = document.getElementById('canvas');
+    const resultImage = document.getElementById('resultImage');
+    const captureBtn = document.getElementById('captureBtn');
+    const uploadBtn = document.getElementById('uploadBtn');
+    const uploadInput = document.getElementById('uploadInput');
+
+    navigator.mediaDevices.getUserMedia({ video: true })
+      .then(stream => video.srcObject = stream)
+      .catch(err => alert("Gagal mengakses kamera: " + err));
+
+    captureBtn.addEventListener('click', () => {
+      const ctx = canvas.getContext('2d');
+      canvas.width = video.videoWidth;
+      canvas.height = video.videoHeight;
+      ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+      resultImage.src = canvas.toDataURL('image/png');
+    });
+
+    uploadBtn.addEventListener('click', () => uploadInput.click());
+
+    uploadInput.addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = evt => resultImage.src = evt.target.result;
+        reader.readAsDataURL(file);
+      }
+    });
+  </script>
+</body>
+</html>
