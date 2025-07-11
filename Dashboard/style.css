@@ -1,0 +1,1515 @@
+.dashboard,
+.dashboard * {
+  box-sizing: border-box;
+}
+.dashboard {
+  background: #001f3f;
+  height: 4096px;
+  position: relative;
+  overflow: hidden;
+}
+.ellipse-18 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 99px;
+  height: 99px;
+  position: absolute;
+  left: calc(50% - 500px);
+  top: 3935px;
+  aspect-ratio: 1;
+}
+.ellipse-19 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 152px;
+  height: 152px;
+  position: absolute;
+  left: calc(50% - -500px);
+  top: 3882px;
+  aspect-ratio: 1;
+}
+.ellipse-20 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 158px;
+  height: 158px;
+  position: absolute;
+  left: calc(50% - 400px);
+  top: 3838px;
+  aspect-ratio: 1;
+}
+.ellipse-21 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 96px;
+  height: 95px;
+  position: absolute;
+  left: calc(50% - 600px);
+  top: 3592px;
+  aspect-ratio: 96/95;
+}
+.ellipse-22 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 225px;
+  height: 225px;
+  position: absolute;
+  left: calc(50% - 300px);
+  top: 3018px;
+  aspect-ratio: 1;
+}
+.ellipse-23 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 303px;
+  height: 303px;
+  position: absolute;
+  left: calc(50% - -100px);
+  top: 3155px;
+  aspect-ratio: 1;
+}
+.ellipse-24 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: calc(50% - -500px);
+  top: 2908px;
+  aspect-ratio: 1;
+}
+.ellipse-25 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 104px;
+  height: 105px;
+  position: absolute;
+  left: calc(50% - 600px);
+  top: 2902px;
+  aspect-ratio: 104/105;
+}
+.ellipse-26 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 100px;
+  height: 101px;
+  position: absolute;
+  left: calc(50% - 600px);
+  top: 2464px;
+  aspect-ratio: 100/101;
+}
+.ellipse-27 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 238px;
+  height: 237px;
+  position: absolute;
+  left: calc(50% - -400px);
+  top: 2165px;
+  aspect-ratio: 238/237;
+}
+.ellipse-28 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 167px;
+  height: 167px;
+  position: absolute;
+  left: calc(50% - 400px);
+  top: 2676px;
+  aspect-ratio: 1;
+}
+.ellipse-29 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  left: calc(50% - 300px);
+  top: 2044px;
+  aspect-ratio: 1;
+}
+.ellipse-30 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 365px;
+  height: 365px;
+  position: absolute;
+  left: calc(50% - 200px);
+  top: 1281px;
+  aspect-ratio: 1;
+}
+.ellipse-31 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 168px;
+  height: 168px;
+  position: absolute;
+  left: calc(50% - -500px);
+  top: 1260px;
+  aspect-ratio: 1;
+}
+.ellipse-32 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 183px;
+  height: 183px;
+  position: absolute;
+  left: calc(50% - 400px);
+  top: 1641px;
+  aspect-ratio: 1;
+}
+.ellipse-33 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 118px;
+  height: 118px;
+  position: absolute;
+  left: calc(50% - 700px);
+  top: 1812px;
+  aspect-ratio: 1;
+}
+.ellipse-34 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 149px;
+  height: 149px;
+  position: absolute;
+  left: calc(50% - -100px);
+  top: 1902px;
+  aspect-ratio: 1;
+}
+.ellipse-35 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 271px;
+  height: 271px;
+  position: absolute;
+  left: calc(50% - -300px);
+  top: 1040px;
+  aspect-ratio: 1;
+}
+.group-155 {
+  position: absolute;
+  inset: 0;
+}
+.frame-1 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #dc143c;
+  border-width: 4px;
+  width: 370px;
+  height: 60px;
+  position: absolute;
+  left: calc(50% - 531px);
+  top: 1265px;
+  overflow: hidden;
+}
+.nama-lengkap {
+  color: rgba(0, 0, 0, 0.9);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  padding: 10px;
+  left: 47px;
+  top: calc(50% - 16px);
+}
+.material-symbols-person {
+  width: 3000px;
+  height: 3000px;
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-33 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffcc00;
+  border-width: 4px;
+  width: 370px;
+  height: 60px;
+  position: absolute;
+  left: calc(50% - 531px);
+  top: 1265px;
+  overflow: hidden;
+}
+.material-symbols-person2 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: calc(50% - 532px);
+  bottom: 2384px;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+.frame-2 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffcc00;
+  border-width: 4px;
+  width: 370px;
+  height: 60px;
+  position: absolute;
+  left: calc(50% - 531px);
+  top: 1375px;
+  overflow: hidden;
+}
+.tempat-lahir {
+  color: rgba(0, 0, 0, 0.9);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  padding: 10px;
+  left: 50px;
+  top: calc(50% - 17px);
+}
+.fa-solid-hospital {
+  width: 26.25px;
+  height: 30px;
+  position: absolute;
+  left: 12px;
+  top: 16px;
+  overflow: visible;
+  aspect-ratio: 26.25/30;
+}
+.div {
+  color: #dc143c;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: 334px;
+  top: calc(50% - 4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-3 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffcc00;
+  border-width: 4px;
+  width: 370px;
+  height: 60px;
+  position: absolute;
+  left: calc(50% - 531px);
+  top: 1486px;
+  overflow: hidden;
+}
+._00-00-0000 {
+  color: rgba(0, 0, 0, 0.9);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  padding: 10px;
+  left: 49px;
+  top: calc(50% - 16px);
+}
+.pixel-calender-solid {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 13px;
+  top: 18px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-4 {
+  width: 358px;
+  height: 25px;
+  position: absolute;
+  left: calc(50% - 530px);
+  top: 1575px;
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-2 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #ffcc00;
+  border-width: 2px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 25px;
+  top: 1px;
+  aspect-ratio: 1;
+}
+.laki-laki {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: 59px;
+  top: 5px;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-3 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #ffcc00;
+  border-width: 2px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  aspect-ratio: 1;
+}
+.perempuan {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: 33px;
+  top: 4px;
+}
+.rectangle-43 {
+  border-radius: 25px;
+  width: 325px;
+  height: 406px;
+  position: absolute;
+  left: calc(50% - 530px);
+  top: 1913px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangle-49 {
+  border-radius: 25px;
+  width: 325px;
+  height: 406px;
+  position: absolute;
+  left: calc(50% - 530px);
+  top: 2973px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangle-46 {
+  border-radius: 25px;
+  width: 325px;
+  height: 406px;
+  position: absolute;
+  left: calc(50% - 530px);
+  top: 2353px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangle-50 {
+  border-radius: 25px;
+  width: 325px;
+  height: 406px;
+  position: absolute;
+  left: calc(50% - 530px);
+  top: 3413px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangle-44 {
+  border-radius: 25px;
+  width: 348px;
+  height: 406px;
+  position: absolute;
+  left: calc(50% - 180px);
+  top: 1913px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangle-51 {
+  border-radius: 25px;
+  width: 348px;
+  height: 406px;
+  position: absolute;
+  left: calc(50% - 180px);
+  top: 2973px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangle-47 {
+  border-radius: 25px;
+  width: 348px;
+  height: 406px;
+  position: absolute;
+  left: calc(50% - 180px);
+  top: 2353px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangle-52 {
+  border-radius: 25px;
+  width: 348px;
+  height: 406px;
+  position: absolute;
+  left: calc(50% - 180px);
+  top: 3413px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangle-45 {
+  border-radius: 25px;
+  width: 348px;
+  height: 406px;
+  position: absolute;
+  left: calc(50% - -190px);
+  top: 1913px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangle-53 {
+  border-radius: 25px;
+  width: 348px;
+  height: 406px;
+  position: absolute;
+  left: calc(50% - -190px);
+  top: 2973px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangle-48 {
+  border-radius: 25px;
+  width: 348px;
+  height: 406px;
+  position: absolute;
+  left: calc(50% - -190px);
+  top: 2353px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangle-54 {
+  border-radius: 25px;
+  width: 348px;
+  height: 406px;
+  position: absolute;
+  left: calc(50% - -190px);
+  top: 3413px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangle-41 {
+  background: #00264c;
+  border-radius: 25px;
+  width: 454px;
+  height: 490px;
+  position: absolute;
+  left: calc(50% - -101px);
+  top: 1220px;
+}
+.ellipse-302 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 104px;
+  height: 105px;
+  position: absolute;
+  left: calc(50% - 400px);
+  top: 903px;
+  aspect-ratio: 104/105;
+}
+.ellipse-312 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: calc(50% - -500px);
+  top: 647px;
+  aspect-ratio: 1;
+}
+.ellipse-322 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 101px;
+  height: 101px;
+  position: absolute;
+  left: calc(50% - 600px);
+  top: 622px;
+  aspect-ratio: 1;
+}
+.ellipse-332 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 237px;
+  height: 237px;
+  position: absolute;
+  left: calc(50% - -400px);
+  top: 48px;
+  aspect-ratio: 1;
+}
+.ellipse-342 {
+  background: rgba(248, 189, 50, 0.5);
+  border-radius: 50%;
+  width: 167px;
+  height: 167px;
+  position: absolute;
+  left: calc(50% - -300px);
+  top: 465px;
+  aspect-ratio: 1;
+}
+.ellipse-352 {
+  background: rgba(220, 20, 60, 0.5);
+  border-radius: 50%;
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  left: calc(50% - 600px);
+  top: 97px;
+  aspect-ratio: 1;
+}
+.rectangle-26 {
+  background: #001a35;
+  width: 5000px;
+  height: 155px;
+  position: absolute;
+  left: calc(50% - 2300px);
+  top: 0px;
+  overflow: hidden;
+}
+.untitled-design-1-2 {
+  width: 212.47px;
+  height: 98px;
+  position: absolute;
+  left: calc(50% - 687.73px);
+  top: 36px;
+  object-fit: cover;
+  aspect-ratio: 212.47/98;
+}
+.group-171 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-13 {
+  background: rgba(217, 217, 217, 0);
+  width: 69.9px;
+  height: 1005.7px;
+  position: absolute;
+  left: 1370.1px;
+  top: 0px;
+}
+.rectangle-14 {
+  background: rgba(217, 217, 217, 0);
+  width: 69.9px;
+  height: 1005.7px;
+  position: absolute;
+  left: 0px;
+  top: 18.3px;
+}
+.ix-user-profile-filled {
+  width: 73.4px;
+  height: 73.4px;
+  position: absolute;
+  left: calc(50% - -550px);
+  top: 60px;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+.selamat-datang-di-bank-jateng-syariah {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 532px);
+  top: 223px;
+  width: 522px;
+  height: 229px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.product-layanan-kami {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 532px);
+  top: 647px;
+  width: 1062px;
+  height: 89px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lihat-semuanya {
+  color: #bababa;
+  text-align: right;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 30px;
+  line-height: 70px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - -238px);
+  top: 647px;
+  width: 291px;
+  height: 89px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.lihat-semua-promonya {
+  color: #bababa;
+  text-align: right;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 30px;
+  line-height: 70px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - -118px);
+  top: 1782px;
+  width: 411px;
+  height: 89px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.lihat-semua-beritanya {
+  color: #bababa;
+  text-align: right;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 30px;
+  line-height: 70px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - -118px);
+  top: 2842px;
+  width: 411px;
+  height: 89px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.pembukaan-rekening {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 532px);
+  top: 1122px;
+  width: 1062px;
+  height: 89px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.promo-terbaru {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 532px);
+  top: 1782px;
+  width: 1062px;
+  height: 89px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.berita-terbaru {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 532px);
+  top: 2842px;
+  width: 1062px;
+  height: 89px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.syarat-pembukaan-rekening-ktp-aktif-nomor-hp-email-usia-17-foto-selfie-tips-gunakan-data-asli-untuk-kelancaran-proses {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 20px;
+  line-height: 0undefined;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - -121px);
+  top: 1188px;
+  width: 478px;
+  height: 545px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  -webkit-text-stroke: 1px #000000;
+}
+.syarat-pembukaan-rekening-ktp-aktif-nomor-hp-email-usia-17-foto-selfie-tips-gunakan-data-asli-untuk-kelancaran-proses-span {
+  line-height: 60px;
+}
+.syarat-pembukaan-rekening-ktp-aktif-nomor-hp-email-usia-17-foto-selfie-tips-gunakan-data-asli-untuk-kelancaran-proses-span2 {
+  line-height: 30px;
+}
+.solusi-keuangan-islami-modern {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 532px);
+  top: 452px;
+  width: 525px;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-207 {
+  position: absolute;
+  inset: 0;
+}
+.beranda {
+  color: #ffd700;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 336px);
+  top: 95px;
+  width: 248px;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.material-symbols-home {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: calc(50% - 235px);
+  top: 60px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.group-208 {
+  position: absolute;
+  inset: 0;
+}
+.tentang-kami {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 156px);
+  top: 95px;
+  width: 248px;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mdi-about {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: calc(50% - 55px);
+  top: 60px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.group-209 {
+  position: absolute;
+  inset: 0;
+}
+.produk-layanan {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - -81px);
+  top: 95px;
+  width: 248px;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gridicons-product {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: calc(50% - -175px);
+  top: 60px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.group-210 {
+  position: absolute;
+  inset: 0;
+}
+.layanan {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - -286px);
+  top: 95px;
+  width: 248px;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mingcute-service-fill {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: calc(50% - -380px);
+  top: 60px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.group {
+  width: 83.33%;
+  height: 90.89%;
+  position: absolute;
+  right: 8.33%;
+  left: 8.33%;
+  bottom: 0.78%;
+  top: 8.33%;
+  overflow: visible;
+}
+.group-211 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-27 {
+  background: #dc143c;
+  border-radius: 10px;
+  width: 199px;
+  height: 50px;
+  position: absolute;
+  left: calc(50% - 530px);
+  top: 534px;
+  overflow: hidden;
+}
+.buka-rekening {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 531.2px);
+  top: calc(50% - 1514px);
+  width: 197.41px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-29 {
+  border-radius: 25px;
+  width: 450px;
+  height: 263px;
+  position: absolute;
+  left: calc(50% - -80px);
+  top: 247px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frame-154 {
+  width: 1054px;
+  height: 298px;
+  position: absolute;
+  left: calc(50% - 520px);
+  top: 761px;
+  overflow: hidden;
+}
+.group-213 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-30 {
+  border-radius: 25px;
+  width: 304.56px;
+  height: 178px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 304.56/178;
+}
+
+.group-216 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-34 {
+  border-radius: 25px;
+  width: 304.56px;
+  height: 178px;
+  position: absolute;
+  left: 974px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 304.56/178;
+}
+.group-214 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-31 {
+  border-radius: 25px;
+  width: 304.56px;
+  height: 178px;
+  position: relative;
+  left: 324px;
+  top: 0px;
+  z-index: 2;
+  object-fit: cover;
+  aspect-ratio: 304.56/178;
+}
+.group-217 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-35 {
+  border-radius: 25px;
+  width: 304.56px;
+  height: 178px;
+  position: absolute;
+  left: 1298px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 304.56/178;
+}
+.group-215 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-32 {
+  border-radius: 25px;
+  width: 304.56px;
+  height: 178px;
+  position: relative;
+  left: 15px;
+  top: 0px;
+  z-index: 2;
+  object-fit: cover;
+  aspect-ratio: 304.56/178;
+}
+.group-218 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-36 {
+  border-radius: 25px;
+  width: 304.56px;
+  height: 178px;
+  position: absolute;
+  left: 1623px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 304.56/178;
+}
+.group-219 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-39 {
+  border-radius: 25px;
+  width: 304.56px;
+  height: 178px;
+  position: absolute;
+  left: 1948px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 304.56/178;
+}
+.group-220 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-40 {
+  border-radius: 25px;
+  width: 304.56px;
+  height: 178px;
+  position: absolute;
+  left: 2273px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 304.56/178;
+}
+.line-26 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 1455px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 1024px;
+}
+.line-27 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 1455px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 2048px;
+}
+.line-28 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 1455px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 3072px;
+}
+.rectangle-33 {
+  background: #dc143c;
+  width: 89px;
+  height: 10px;
+  position: absolute;
+  left: calc(50% - 530px);
+  top: 718px;
+  overflow: hidden;
+}
+.rectangle-342 {
+  background: #dc143c;
+  width: 89px;
+  height: 10px;
+  position: absolute;
+  left: calc(50% - 530px);
+  top: 1193px;
+  overflow: hidden;
+}
+.rectangle-42 {
+  background: #dc143c;
+  width: 89px;
+  height: 10px;
+  position: absolute;
+  left: calc(50% - 530px);
+  top: 1853px;
+  overflow: hidden;
+}
+.rectangle-55 {
+  background: #dc143c;
+  width: 89px;
+  height: 10px;
+  position: absolute;
+  left: calc(50% - 530px);
+  top: 2913px;
+  overflow: hidden;
+}
+.pembiayaan-syariah {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 522px);
+  top: 959px;
+  width: 304px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.solusi-dana-tanpa-bunga-aman-dan-halal-dengan-sistem-akad-syariah {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 522px);
+  top: 969px;
+  width: 304px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edukasi-syariah {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - -452px);
+  top: 959px;
+  width: 304px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pelajari-prinsip-keuangan-islam-dengan-mudah-dan-praktis {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - -452px);
+  top: 969px;
+  width: 304px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buka-rekening2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 198px);
+  top: 959px;
+  width: 304px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buka-rekening-mudah-cepat-dan-sesuai-prinsip-syariah {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 198px);
+  top: 969px;
+  width: 304px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deposito-syariah {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - -776px);
+  top: 959px;
+  width: 304px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.investasi-aman-sesuai-prinsip-syariah-dengan-hasil-bagi-untung {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - -776px);
+  top: 969px;
+  width: 304px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cek-rekening-koran {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - -127px);
+  top: 959px;
+  width: 304px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pantau-transaksi-dan-mutasi-rekening-anda-secara-real-time {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - -127px);
+  top: 969px;
+  width: 304px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tracking-pengajuan {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - -1101px);
+  top: 959px;
+  width: 304px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lacak-status-pengajuan-anda-kapan-saja-di-mana-saja {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - -1101px);
+  top: 969px;
+  width: 304px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.simulasi-pinjaman {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - -1426px);
+  top: 959px;
+  width: 304px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hitung-angsuran-syariah-anda-sebelum-mengajukan {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - -1426px);
+  top: 969px;
+  width: 304px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hubungi-kami {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - -1751px);
+  top: 959px;
+  width: 304px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ada-pertanyaan-kami-siap-membantu-anda {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - -1751px);
+  top: 969px;
+  width: 304px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nama-lengkap2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 527px);
+  top: 1240px;
+  overflow: hidden;
+}
+.tempat-lahir2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 527px);
+  top: 1350px;
+  overflow: hidden;
+}
+.tanggal-lahir {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 527px);
+  top: 1460px;
+  overflow: hidden;
+}
+.frame-32 {
+  background: #dc143c;
+  border-radius: 10px;
+  width: 412px;
+  height: 60px;
+  position: absolute;
+  left: calc(50% - 532px);
+  bottom: 2384px;
+  overflow: hidden;
+}
+.lanjut-pembukaan-rekening {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  width: 412px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ep-arrow-up-bold {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 608px;
+  top: 2907px;
+  transform: translate(-35px, -35px);
+  overflow: visible;
+  aspect-ratio: 1;
+}
+
+a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+   
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+
+   .ellipse-2,
+.ellipse-3 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid #ffcc00;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.ellipse-2.selected{
+  background-color: #ffcc00;
+}
+
+.ellipse-3.selected {
+  background-color: #ffcc00;
+}
+
+
+.produk-layanan-wrapper {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 16px;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.produk-item {
+  flex: 0 0 auto;
+  min-width: 250px;
+  scroll-snap-align: start;
+  background: #e3f2fd;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
